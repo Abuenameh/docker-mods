@@ -3,7 +3,7 @@ name: Build Image
 on: [push, pull_request, workflow_dispatch]
 
 env:
-  ENDPOINT: "Abuenameh/docker-mods" #don't modify
+  ENDPOINT: "abuenameh/docker-mods" #don't modify
   BASEIMAGE: "duckdns" #replace
   MODNAME: "ipv6" #replace
 
